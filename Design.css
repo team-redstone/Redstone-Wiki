@@ -21,26 +21,52 @@ body {
 
 #menue-top {
 	width: 100%;
-	height: 50px;
+	height: 35px;
 	background-color: #63E31F;
 	margin-bottom: 0px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Times New Roman, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#menue-top ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#menue-top ul li {
+	list-style-type: none;
+}
+
+#menue-top ul li a {
+	height: 35px;
+	width: 100px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFF;
 }
 
 #menue-left {
-	width: 250px;
+	width: 230px;
 	//height: 600px;
 	background-color: #150CE4;
 	float: left;
 	margin-bottom: 30px;
 	margin-right: 0px;
+	padding: 10px 10px 10px 10px;
 }
 
 #content {
-	width: 800px;
+	width: 780px;
 	//height: 600px;
 	background-color: #EFF8FB;
 	float: right;
 	margin-bottom: 30px;
+	padding: 10px 10px 10px 10px;
 }
 
 #footer {
